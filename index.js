@@ -46,8 +46,8 @@ Use the copy function below to do the following:
 */
 
 
-function copy(/*your code here*/){
-  /*your code here*/
+function copy(orignalFlavors){
+  return('Task 1', originalFlavors)
 }
 
 
@@ -63,9 +63,11 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 */
 
 
-function is31Flavors(/*your code here*/){
-  /*your code here*/
+function is31Flavors(orignalFlavors){
+  if(originalFlavors.length === 31)
+  return(true)
  }
+
 
 
 
@@ -82,8 +84,9 @@ Use the addFlavor function below to do the following:
 */
 
 
-function addFlavor(/*your code here*/){
-  /*your code here*/
+function addFlavor(originalFlavors){
+  originalFlavors.unshift("Rainbow Sherbert");
+  return(originalFlavors)
  }
 
 
@@ -100,8 +103,9 @@ Use the removeLastFlavor function below to do the following:
 */
 
 
-function removeLastFlavor(/*your code here*/){
- /*your code here*/
+function removeLastFlavor(originalFlavors){
+ originalFlavors.pop()
+ return(originalFlavors)
 }
 
 
@@ -118,9 +122,10 @@ Use the getFlavorByIndex function below to do the following:
 */
 
 
-function getFlavorByIndex(/*your code here*/){
-  /*your code here*/
+function getFlavorByIndex(orignalFlavors,anyIndex){
+  return(originalFlavors[anyIndex])
 }
+
 
 
 
@@ -138,8 +143,9 @@ Use the removeFlavorByName function below to do the following:
   HINT: You can use .splice() for this
 */
 
-function removeFlavorByName(/*your code here*/){
-  /*your code here*/
+function removeFlavorByName(orignalFlavors){
+  originalFlavors.splice(29, 1)
+  return(originalFlavors)
 }
 
 
@@ -163,9 +169,13 @@ Use the filterByWord function below to do the following:
 */
 
 
-function filterByWord(/*your code here*/){
-  /*your code here*/
+function filterByWord(orignalFlavors){
+
 }
+ 
+  
+  
+
 
 
 
